@@ -1,0 +1,29 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+.env/
+venv/
+.venv/
+.DS_Store
+.vscode/
+
+# Log files
+*.log
+
+# Optional: local Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Large model/artifact files
+*.joblib
+
+# Ignore local dataset file for this sentiment analysis project
+Restaurant or Product Review Sentiment_Classifier/Reviews.csv
